@@ -10,7 +10,11 @@ public class APP {
         System.out.println("What is your name?");
         Scanner sc = new Scanner(System.in);
         String name = sc.nextLine();
-        System.out.print("Hello, " + name);
-        System.out.print(" nice to meet you");
+        String OutPutString = "Hello, ";
+        OutPutString += name;
+
+        OutPutString  += ",nice to meet you";
+
+        System.out.println(OutPutString);
     }
 }
